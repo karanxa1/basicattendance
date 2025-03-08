@@ -56,7 +56,7 @@ app.post("/submit-attendance", async (req, res) => {
       res.status(500).json({ error: "❌ Failed to save attendance" });
   }
 });
-
+//ne
 // Fetch attendance data for the chart
 app.get("/attendance-data", async (req, res) => {
     try {
