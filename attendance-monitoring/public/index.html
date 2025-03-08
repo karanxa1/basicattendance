@@ -8,13 +8,21 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <h1>Attendance Monitoring</h1>
+    <nav>
+        <h1>Attendance Monitoring</h1>
+        <a href="data.html">View All Records</a>
+    </nav>
     
-    <div id="student-container"></div>
-    <button id="submit-btn">Submit Attendance</button>
+    <div class="container">
+        <h2>Take Attendance</h2>
+        <div id="student-container"></div>
+        <button id="submit-btn">Submit Attendance</button>
+    </div>
 
-    <h2>Attendance Summary</h2>
-    <canvas id="attendanceChart"></canvas>
+    <div class="container">
+        <h2>Attendance Summary</h2>
+        <canvas id="attendanceChart"></canvas>
+    </div>
 
     <script src="script.js"></script>
 </body>

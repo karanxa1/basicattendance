@@ -2,17 +2,26 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #444;
+    margin-bottom: 15px;
 }
 
 #student-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
+    margin: 20px auto;
+    max-width: 800px;
 }
 
 .student-button {
@@ -43,8 +52,81 @@ h1 {
     cursor: pointer;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
 }
 
 #submit-btn:hover {
     background-color: darkblue;
+}
+
+/* Data page styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.download-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.download-btn:hover {
+    background-color: #45a049;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #4CAF50;
+}
+
+nav a:hover {
+    background-color: #45a049;
+}
+
+.present {
+    color: white;
+    background-color: green;
+}
+
+.absent {
+    color: white;
+    background-color: red;
 }
