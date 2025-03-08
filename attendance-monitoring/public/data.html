@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Records</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav>
+        <h1>Attendance Records</h1>
+        <a href="index.html">Back to Attendance</a>
+    </nav>
+
+    <div class="container">
+        <h2>Attendance Data</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student Number</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="attendance-table"></tbody>
+        </table>
+        <button id="download-csv" class="download-btn">Download CSV</button>
+    </div>
+
+    <div class="container">
+        <h2>Attendance Chart</h2>
+        <canvas id="attendance-chart"></canvas>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+#student-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.student-button {
+    padding: 15px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.student-button.absent {
+    background-color: red;
+    color: white;
+}
+
+.student-button.present {
+    background-color: green;
+    color: white;
+}
+
+#submit-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#submit-btn:hover {
+    background-color: darkblue;
+}
